@@ -16,12 +16,8 @@ def generate_text(text):
     print(f'Longueur du texte généré : {length_final_text}')
 
     rdm_word = rdm.choices(words_list, k=length_final_text)
-    print(rdm_word)
-
-    # for _ in range(rdm.randrange(20,30)):
-    #     print(_)
-
-    # print(words_list)
+    final_text =  ' '.join(str(_) for _ in rdm_word)
+    print(final_text)
 
 
 content_file = open_file()
