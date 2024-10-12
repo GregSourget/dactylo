@@ -9,12 +9,12 @@ def open_file() :
         content = f.read()
     return content
 
-def generate_text(text):
-    words_list = []
-    words_list = text.split()
+def generate_text(text): 
     length_final_text = int(rdm.randint(MIN,MAX))
     print(f'Longueur du texte généré : {length_final_text}')
 
+    words_list = []
+    words_list = text.split()
     rdm_word = rdm.choices(words_list, k=length_final_text)
     final_text =  ' '.join(str(_) for _ in rdm_word)
     print(final_text)
