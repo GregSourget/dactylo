@@ -1,4 +1,6 @@
-import random as rdm
+import random 
+import time
+import keyboard
 
 #length of the final text
 MIN = 5
@@ -19,6 +21,12 @@ def generate_text(text):
     final_text =  ' '.join(str(_) for _ in rdm_word)
     print(final_text)
 
+def timer():
+    #setup a time
+
+def main():
+    #when u start, it show the whole text and u have to write it completely, each space valide a word     
+
 
 content_file = open_file()
-generate_text(content_file)
+generate_text(content_file)aa
