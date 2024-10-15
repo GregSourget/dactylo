@@ -2,7 +2,7 @@ import random
 import time
 import keyboard
 
-#length of the final text
+#length of the final tex
 MIN = 5
 MAX = 20
 
