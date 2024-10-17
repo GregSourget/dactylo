@@ -6,15 +6,18 @@ MIN = 5
 MAX = 20
 
 class Game:
-    #cete methode va etre automatiquement appelé lors d'un instance du gener Game()
-    def __init__(self):
-        self.
+    #cette methode va etre automatiquement appelé lors d'un instance du gener Game()
+    def __init__(self, file):
+        self.file = file
+        #parametre de base
+        print("alalalla" + self.file)
 
-    def time(self):
 
-    def open_file(self):
+    # def time(self):
+
+    # def open_file(self):
     
-    def generate_text(self):
+    # def generate_text(self):
 
-#try exectp
-Game()
+game1 = Game()
+
